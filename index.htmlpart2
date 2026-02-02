@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaHive Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>NovaHive</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#products">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Welcome to NovaHive!</h2>
+    <p>Discover the coolest gadgets and lifestyle products.</p>
+    <button onclick="window.location.href='https://example.com/test-checkout'">Shop Now</button>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <div class="product">
+      <img src="images/mini-straightener.jpg" alt="Mini Straightener">
+      <h3>Mini Straightener</h3>
+      <p>$29.99</p>
+      <button onclick="window.location.href='https://example.com/test-checkout'">Buy Now</button>
+    </div>
+    <div class="product">
+      <img src="images/product2.jpg" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>$19.99</p>
+      <button onclick="window.location.href='https://example.com/test-checkout'">Buy Now</button>
+    </div>
+    <!-- Add more products by copying a div.product block -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 NovaHive. All rights reserved.</p>
